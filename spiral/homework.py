@@ -1,4 +1,15 @@
 def spiralize(number):
-    return_value = 1
+    n = 1
+    cnt = 0
+    inc = 2
+    total = 0
 
-    return return_value
+    while n <= ** 2:
+        total += n
+        n += inc
+        cnt += 1
+        if cnt == 4:
+            inc += 2
+            cnt = 0
+
+    return total
