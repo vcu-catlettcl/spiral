@@ -4,7 +4,7 @@ def spiralize(number):
     inc = 2
     total = 0
 
-    while n <= ** 2:
+    while n <= ** number 2:
         total += n
         n += inc
         cnt += 1
